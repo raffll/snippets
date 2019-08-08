@@ -14,8 +14,7 @@ class process_2
 public:  
     inline void fun()
     {
-        T t;
-        t(1,2);
+        T()(1,2);
     }
 };
 
